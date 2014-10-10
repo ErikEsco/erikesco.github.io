@@ -15,8 +15,8 @@ h1 {
 	font-size: 1.500em;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 1.25em;
-	margin-bottom: 1.25em;
+	margin-bottom: 2.25em;
+	margin-bottom: 2.25em;
 }
 
 h3 {
@@ -28,5 +28,13 @@ h3 {
 h4 {
 	font-size: 1.5em;
 	font-weight: bold;
+}
+
+#about {
+	position:relative;
+	padding-top: 1.500em;
+	padding-bottom: 1.500em;
+	padding-left: 3em;
+	padding-right: 3em;
 }
 
