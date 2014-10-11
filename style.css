@@ -5,10 +5,13 @@ html {
   text-size-adjust: 100%; 
   font-family: font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 1.125em;
-  line-height: 0.750em;
+  line-height: 1em;
   text-align: center;
   background-color: black;
   color: white;
+  position:relative;
+  padding-bottom: 4em;
+
 }
 
 h1 {
@@ -17,26 +20,90 @@ h1 {
 	text-transform: uppercase;
 	margin-bottom: 2.25em;
 	margin-top: 2.25em;
+	padding-top: 3em;
+	padding-bottom: 2em;
 }
 
 h3 {
 	font-size: 1.2em;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.2em;
 }
 
-h4 {
-	font-size: 1.5em;
+h5 {
+	font-size: 1em;
 	font-weight: bold;
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
+	margin-top: 0.75em;
+}
+
+p {
+	position: relative;
+	padding-top: 1em;
+	padding-bottom: 0.75em;
+	line-height: 1.2em;
 }
 
 #about {
 	position:relative;
-	padding-top: 1.500em;
-	padding-bottom: 1.500em;
-	padding-left: 3em;
-	padding-right: 3em;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	padding-left: 7em;
+  padding-right: 7em;
+  background-color: #080808  ;
 }
 
+#education {
+	padding-bottom: 2.5em;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-color: #101010;
+}
+
+#experience {
+	background-color: #181818;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}
+
+#experience p {
+	padding-left: 7em;
+  padding-right: 7em;
+  padding-top: 1em;
+	
+	
+}
+
+#skills {
+	background-color: #202020;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}
+
+#skills p {
+	padding-left: 7em;
+  padding-right: 7em;
+  padding-top: 1em;
+	
+}
+
+#contact {
+  padding-top: 1.5em;
+	padding-bottom: 1em;
+	background-color: #282828;
+}
+
+#footer {
+	padding-left: 7em;
+  padding-right: 7em;
+  padding-top: 2em;
+	padding-bottom: 1.5em;
+	background-color: #303030;
+}
+
+li {
+	line-height: 1em;
+	padding-bottom: 0.5em;
+}
