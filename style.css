@@ -119,6 +119,9 @@ li {
     margin-left: auto;
     margin-right: auto;
   }
+  h3 {
+  	line-height: 1.5em;
+  }
 }
 
 @media screen and (min-width: 50em) {
