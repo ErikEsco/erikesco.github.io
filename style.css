@@ -56,6 +56,10 @@ p {
 	float: left;
 }
 
+nav {
+	display: block;
+}
+
 #content {
 	float: left;
 }
