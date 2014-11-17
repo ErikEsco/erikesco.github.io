@@ -54,6 +54,7 @@ p {
 
 #sideContent {
 	float: left;
+	width: 20%;
 }
 
 nav {
@@ -62,6 +63,7 @@ nav {
 
 #content {
 	float: left;
+	width: 80%;
 }
 #about {
 	position:relative;
