@@ -7,7 +7,6 @@ html {
   font-size: 1.125em;
   line-height: 1em;
   text-align: center;
-  background-color: black;
   color: white;
   position:relative;
   padding-bottom:0em;
@@ -55,10 +54,12 @@ p {
 #sideContent {
 	float: left;
 	width: 20%;
+	background-color: black;
 }
 
 nav a {
 	display: block;
+	color: white;
 }
 
 #content {
@@ -69,7 +70,6 @@ nav a {
 	position:relative;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
-	
   background-color: #080808  ;
 }
 
