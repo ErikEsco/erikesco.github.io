@@ -52,6 +52,13 @@ p {
 	line-height: 1.2em;
 }
 
+#sideContent {
+	float: left;
+}
+
+#content {
+	float: left;
+}
 #about {
 	position:relative;
 	padding-top: 1.5em;
