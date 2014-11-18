@@ -10,6 +10,7 @@ html {
   color: white;
   position:relative;
   padding-bottom:0em;
+  background-color: black;
 }
 
 h1 {
@@ -53,36 +54,36 @@ p {
 
 #sideContent {
 	float: left;
-	width: 20%;
-	height: 100%;
-	background-color: blue;
+	width: 10%;
+	padding-top: 17em;
+	position: fixed;
 }
 
-nav a {
+ a {
 	display: block;
 	color: white;
 }
 
-#content {
+article {
 	float: left;
 	width: 80%;
+	background-color: black;
+	padding-left: 10em;
+	text-align: center;
 }
 #about {
 	position:relative;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
-  background-color: #080808  ;
 }
 
 #education {
 	padding-bottom: 2.5em;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
-	background-color: #101010;
 }
 
 #experience {
-	background-color: #181818;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
 }
@@ -94,7 +95,6 @@ nav a {
 }
 
 #skills {
-	background-color: #202020;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
 }
@@ -109,17 +109,17 @@ nav a {
 #contact {
   padding-top: 1.5em;
 	padding-bottom: 1em;
-	background-color: #282828;
 }
 
-#footer {
+footer {
 	padding-left: 7em;
   padding-right: 7em;
-  padding-top: 2em;
-	padding-bottom: 2.5em;
-	background-color: #303030;
+  padding-top: .5em;
+	padding-bottom: .75em;
+	background-color: grey;
 	display: block;
-	height: 5%;
+	height: 1em;
+	clear:both;
 }
 
 li {
