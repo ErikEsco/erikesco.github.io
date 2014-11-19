@@ -411,3 +411,9 @@ li{
     padding-left: 0.5em;
   }
 }
+@media screen and (min-width: 1024px){
+   h2 {
+    padding-bottom: 1em;
+    line-height: 1em;
+  }
+}
