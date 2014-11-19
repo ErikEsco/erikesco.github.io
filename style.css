@@ -12,8 +12,6 @@ html {
 body {
   margin:0;
   padding:0;
-  border-radius: 1em;
-  border-style: solid;
 }
 
 footer {
@@ -76,8 +74,6 @@ h6 {
   width: 15%;
   position: fixed;
   padding-top: 10em;
-  border-style: solid;
-  border-radius: 3em;
 }
 
 a {
@@ -99,8 +95,6 @@ article {
   float: left;
   width: 50%;
   padding-left: 35%;
-  border-style: dotted;
-  border-radius: 3em;
 }
 
 #hola {
@@ -208,13 +202,10 @@ li{
   #sideContent {
     width: 100%%;
     padding-top: 0;
-    border-style: solid;
-    border-radius: 3em;
   }
   
   a {
     text-transform: uppercase;
-    color: blue;
     display: inline;
   }
   
@@ -225,8 +216,6 @@ li{
   article {
     width: 100%;
     padding-left: 1%;
-    border-style: solid;
-    border-radius: 3em;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 480px ) {
@@ -274,13 +263,10 @@ li{
   #sideContent {
     width: 100%%;
     padding-top: 0;
-    border-style: solid;
-    border-radius: 3em;
   }
   
   a {
     text-transform: uppercase;
-    color: red;
     display: inline;
     font-size: 0.75em;
   }
@@ -292,8 +278,6 @@ li{
   article {
     width: 100%;
     padding-left: 1%;
-    border-style: dotted;
-    border-radius: 3em;
     padding-bottom: 2em;
   }
 }
@@ -343,14 +327,11 @@ li{
   #sideContent {
     width: 100%;
     padding-top: 0em;
-    border-style: solid;
-    border-radius: 3em;
   }
   
   a {
     display: inline;
     text-transform: uppercase;
-    color: purple;
     font-size: 1em;
   }
   
@@ -361,8 +342,6 @@ li{
   article {
     width: 100%;
     padding-left: 1%;
-    border-style: solid;
-    border-radius: 3em;
     padding-bottom: 2em;
   }
 }
@@ -411,14 +390,11 @@ li{
   #sideContent {
     width: 100%;
     padding-top: 0em;
-    border-style: solid;
-    border-radius: 3em;
   }
   
   a {
     display: inline;
     text-transform: uppercase;
-    color: purple;
     font-size: 1em;
   }
   
@@ -429,12 +405,9 @@ li{
   article {
     width: 100%;
     padding-left: 3%;
-    border-style: solid;
-    border-radius: 3em;
     padding-bottom: 2em;
   }
   p {
     padding-left: 0.5em;
   }
 }
-
