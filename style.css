@@ -184,10 +184,44 @@ nav {
 }
 }
 @media screen and (min-width: 321px and max-width: 480px ) {
-  
+  #sideContent {
+  position: fixed;
+}
+
+a {
+  display: inline;
+  text-transform: uppercase;
+  color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+nav {
+  text-align: left;
+
+}
 }
 @media screen and (min-width: 421px and max-width: 768px) {
- 
+ #sideContent {
+  position: fixed;
+}
+
+a {
+  display: inline;
+  text-transform: uppercase;
+  color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+nav {
+  text-align: left;
+
+}
 }
 @media screen and (min-width: 769px and max-width: 1024px) {
  
