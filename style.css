@@ -23,8 +23,8 @@ h1 {
 	font-size: 3em;
 	font-weight: bold;
 	text-transform: uppercase;
-	padding-top: 5em;
-	padding-bottom: 2em;
+	padding-top: 4em;
+	padding-bottom: 1.5em;
 }
 
 h2 {
@@ -111,8 +111,7 @@ article {
 
 #skills p {
 	position:relative;
-  padding-top: 1em;
-	
+  padding-top: 1em;	
 }
 
 #contact {
