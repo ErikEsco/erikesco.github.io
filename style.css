@@ -282,7 +282,7 @@ li{
     text-transform: uppercase;
     color: red;
     display: inline;
-    font-size: 1em;
+    font-size: 0.75em;
   }
  
   nav {
@@ -299,30 +299,30 @@ li{
 
 @media screen and (min-width: 421px) and (max-width: 768px) {
   h1 {
-    font-size: 2.25em;
+    font-size: 1.75em;
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 4em;
-    padding-bottom: 2em;
-    text-align: left;
+    padding-top: 2.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
   }
   
   h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     text-transform: capitalize;
     padding-bottom: 0.5em;
   }
   
   h3 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: bold;
     text-transform: capitalize;
     padding-left: 0.25em;
   }
   
   h4 {
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: bold;
     text-transform: capitalize;
     padding-left: 0.35em;
@@ -330,39 +330,36 @@ li{
   }
   
   h5 {
-    font-size: 1em;
+    font-size: 0.75em;
     font-weight: bold;
   }
   
   h6 {
-    font-size: 1em;
+    font-size: 0.75em;
     font-weight: bold;
   }
   
   #sideContent {
-    float: left;
-    width: 15%;
-    position: fixed;
-    padding-top: 10em;
+    width: 100%;
+    padding-top: 0em;
     border-style: solid;
     border-radius: 3em;
   }
   
   a {
-    display: block;
+    display: inline;
     text-transform: uppercase;
-    color: black;
+    color: purple;
+    font-size: 1em;
   }
   
   nav {
     text-align: left;
-    line-height: 1.5em;
   }
   
   article {
-    float: left;
-    width: 50%;
-    padding-left: 35%;
+    width: 100%;
+    padding-left: 5%;
     border-style: solid;
     border-radius: 3em;
   }
