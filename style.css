@@ -6,7 +6,7 @@ html {
   line-height: 1em;
   font-size: 1.5em;
   padding-bottom:0em;
-  background-color: #404040;
+  background-color: #707070;
 }
 
 body {
@@ -34,24 +34,31 @@ h1 {
   font-size: 2.25em;
   font-weight: bold;
   text-transform: uppercase;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  text-align: left;
 }
 
 h2 {
   font-size: 2em;
   font-weight: bold;
   text-transform: capitalize;
+  padding-bottom: 0.5em;
 }
 
 h3 {
   font-size: 1.5em;
   font-weight: bold;
   text-transform: capitalize;
+  padding-left: 0.25em;
 }
 
 h4 {
   font-size: 1.25em;
   font-weight: bold;
   text-transform: capitalize;
+  padding-left: 0.35em;
+  padding-top: 0.5em;
 }
 
 h5 {
@@ -75,9 +82,7 @@ h6 {
 
 a {
   display: block;
-  padding-left: 5em;
   text-transform: uppercase;
-  line-height: 1.5em;
   color: black;
 }
 
@@ -87,6 +92,7 @@ a:hover {
 
 nav {
   text-align: right;
+  line-height: 1.5em;
 }
 
 article {
@@ -107,6 +113,7 @@ p {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   line-height: 1.25em;
+  padding-left: 1em;
 }
 
 #header {
@@ -147,6 +154,7 @@ p {
 ul {
   padding-bottom: 1em;
   padding-top: 0.75em;
+  padding-left: 1.5em;
 }
 
 li{
