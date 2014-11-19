@@ -31,6 +31,7 @@ h2 {
 	font-size: 1.5em;
 	font-weight: bold;
 	text-transform: capitalize;
+	padding-top: 4em;
 	padding-bottom: 2em;
 }
 
@@ -119,6 +120,9 @@ article {
 	padding-bottom: 1em;
 }
 
+#hola {
+	padding-top: 4em;
+}
 footer {
   padding-top: .2em;
 	padding-bottom: .25em;
