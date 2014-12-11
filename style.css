@@ -14,7 +14,11 @@ html {
 body {
   margin:0;
   padding:0;
-  padding-left: 3em; 
+}
+
+.main{
+  padding-left: 6em;
+  padding-top: 1em;
 }
 
 footer {
