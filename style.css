@@ -14,6 +14,7 @@ html {
 body {
   margin:0;
   padding:0;
+  padding-left: 3em; 
 }
 
 footer {
@@ -159,6 +160,7 @@ li{
   line-height: 1em;
   padding-top: 0.25em;
   list-style-type: square;
+  display: inline;
 }
 
 @media screen and (max-width: 320px) {
